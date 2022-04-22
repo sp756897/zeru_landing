@@ -7,11 +7,11 @@ class Topnavmenu extends React.Component {
     render() {
         return (
             <div>
-                <Menu className="menu" theme="dark" mode="horizontal" defaultSelectedKeys={['swap']}
-                style={{color:'red',backgroundColor:'transparent'}}
+                <Menu className="menu" theme="dark" mode="horizontal" 
+                style={{backgroundColor:'transparent'}}
                 >
                     
-                    <Menu.Item key='commingsoon' className="customclass">
+                    <Menu.Item key='commingsoon'>
                         
                             COMMING SOON
                         
