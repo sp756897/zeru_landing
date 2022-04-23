@@ -8,12 +8,12 @@ class Topnavmenu extends React.Component {
         return (
             <div>
                 <Menu className="menu" theme="dark" mode="horizontal"
-                    style={{ backgroundColor: "transparent" }}
+                    style={{ backgroundColor: "transparent", float: "right" }}
                 >
 
                     <Menu.Item key='commingsoon'>
 
-                        COMMING SOON
+                        COMING SOON
 
                     </Menu.Item>
                 </Menu>

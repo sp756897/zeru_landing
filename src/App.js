@@ -14,8 +14,8 @@ function App() {
         <Header style={{ alignItems: 'right', backgroundColor: 'transparent', color: 'white' }}>
 
           <div className="logo" >
-            <h2>
-              ZERU
+            <h2 style={{ fontFamily: "Rubik", fontSize: "21px", fontWeight: "bold" }}>
+              <i></i> Z E R U
             </h2>
           </div>
 
@@ -26,7 +26,7 @@ function App() {
 
         <LandingPage />
 
-        <Footer style={{ textAlign: 'center', background: '#060004' }}>
+        <Footer style={{ textAlign: 'center', background: "transparent" }}>
 
           <p style={{ color: 'white' }}>Zeru ©2022
           </p>
