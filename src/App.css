@@ -48,7 +48,18 @@ body {
   background-color: rgba(255, 255, 255, 0.0);
 }
 
+.ant-menu>.ant-menu-item:hover,
+.ant-menu>.ant-menu-submenu:hover,
+.ant-menu>.ant-menu-item-active,
+.ant-menu>.ant-menu-submenu-active,
+.ant-menu>.ant-menu-item-open,
+.ant-menu>.ant-menu-submenu-open,
+.ant-menu>.ant-menu-item-selected,
+.ant-menu>.ant-menu-submenu-selected {
+  background-color: rgb(255, 179, 0) !important;
+}
+
 #textcomp {
-  background-color: rgba(173, 173, 173, 0.201);
+  background-color: rgb(0, 0, 0, 0.2);
   border-radius: 15px;
 }
