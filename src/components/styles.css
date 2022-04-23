@@ -1,0 +1,28 @@
+#shiny{
+    position: relative;
+    font-family: 'Righteous';
+    font-size: 13em;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 2px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    margin-top: 140px;
+}
+
+#shiny::before{
+    content: attr(data-text);
+    position: absolute;
+    color: white;
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+    border-right: 8px solid white;
+}
+
+#shiny:hover::before{
+    width: 100%;
+    -webkit-text-stroke: 1px white;
+    filter: drop-shadow(0 0 25px white);
+
+}
