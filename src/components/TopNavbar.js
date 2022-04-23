@@ -11,7 +11,7 @@ class Topnavmenu extends React.Component {
                     style={{ backgroundColor: "transparent", float: "right" }}
                 >
 
-                    <Menu.Item className="menuitem1" key='commingsoon' style={{ "borderRadius": "30px", color: "white" }}>
+                    <Menu.Item className="menuitem1" key='commingsoon' style={{ "borderRadius": "24px", color: "white" }}>
 
                         COMING SOON
 
