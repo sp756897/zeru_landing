@@ -1,7 +1,10 @@
 body {
   background-image: url("./assets/back6.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
+
+.first_segment {}
 
 #landingheader {
   font-size: 57px;
@@ -57,6 +60,10 @@ body {
 .ant-menu>.ant-menu-item-selected,
 .ant-menu>.ant-menu-submenu-selected {
   background-color: rgb(255, 179, 0) !important;
+}
+
+#ant_button {
+  background-color: gold;
 }
 
 #textcomp {
