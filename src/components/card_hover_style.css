@@ -60,3 +60,8 @@ p.small {
     border: 1px solid #cccccc;
     background: -webkit-linear-gradient(rgba(255, 208, 0, 0.183), rgb(255, 179, 0));
 }
+
+.secondclass{
+    height: 100vh;
+    background-image: radial-gradient(closest-side at 20% 55%,#ededed, #aaaaaa);
+}

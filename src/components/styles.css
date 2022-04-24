@@ -34,16 +34,14 @@
     margin-top: 100px;
 }
 
-li{
-    margin-left: 30px;
-    font-size: 1rem;
+h4{
+    margin-left: 50px;
     -webkit-transition: 0.6s;
-    line-height: 2rem;
+    
 }
-
-li:hover {
+/* h4:hover {
     font-size: 1.2rem;
     color: black;
     text-shadow: 10px 10px 10px #191919;
     transition: all 0.6s;
-}
+} */

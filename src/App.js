@@ -11,9 +11,9 @@ function App() {
 
       <Layout className="layout" style={{ backgroundColor: "transparent", }}>
 
-        <Header style={{ alignItems: 'right', backgroundColor: 'transparent', color: 'white', paddingTop: "1rem" }}>
+        <Header className='headerclass' style={{ alignItems: 'right', color: 'white', paddingTop: "0.1rem" }}>
 
-          <div className="logo" >
+          <div className="logo">
             <h2 style={{ fontFamily: "Rubik", fontSize: "21px", fontWeight: "bold" }}>
               <i></i> Z E R U
             </h2>

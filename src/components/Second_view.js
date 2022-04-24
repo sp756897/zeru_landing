@@ -5,7 +5,7 @@ import { Row, Card, Col } from "antd";
 class Second_View extends Component {
     render() {
         return (
-            <div>
+            <div className='secondclass'>
                 <Row style={{ width: "stretch", height: '100%', padding: "3rem", display: "flex", justifyContent: "space-around" }}>
                     <Col>
                         <div className='container'>
