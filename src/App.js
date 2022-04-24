@@ -26,12 +26,9 @@ function App() {
 
         <LandingPage />
 
-        <Footer style={{ textAlign: 'center', background: "transparent" }}>
-
-          <p style={{ color: 'white' }}>Zeru ©2022
-          </p>
-
-        </Footer>
+        <p style={{ color: 'black', textAlign:'center'}}>
+        Zeru ©2022
+        </p>
 
       </Layout>
 

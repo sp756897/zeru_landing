@@ -10,7 +10,7 @@ export class LandingPage extends Component {
     render() {
         return (
             <div>
-                <div className='first_segment' style={{ "paddingTop": "1.8rem" }}>
+                <div className='first_segment' style={{ paddingTop: "1.8rem" }}>
                     <Row style={{ width: '100%', height: '100%', padding: "3rem" }}>
                         <Col span={14} offset={0} style={{ width: '100%', height: '100%' }}>
                             <TextComponent />
@@ -19,7 +19,7 @@ export class LandingPage extends Component {
                             <AnimationComponent />
                         </Col>
                     </Row>
-                    <Row style={{ width: '100%', height: '100%', padding: "3rem" }}>
+                    <Row >
                         <Card id="textcomp" bordered={false} style={{ width: "100%", textAlign: "center" }}>
                             <h3 id="secondary_header" style={{ fontFamily: "Rubik", color: "gold", fontSize: "30px", paddingBottom: "15px" }}>
                                 Join the Revolution
@@ -28,14 +28,17 @@ export class LandingPage extends Component {
                                 Your big oppurtunity to join the future of Defi is here!!!<br></br> Join the Revolution and be a part of this community to go to moon at last!!!
                             </p>
                             <div style={{ "padding": "1rem" }}>
-                                <Button id='ant_button'>
+                                <Button id='ant_button' type='primary'>
                                     Discord
                                 </Button>
                             </div>
                         </Card>
                     </Row>
                 </div>
-                <div className='second_view' style={{ "backgroundColor": "white" }}>
+
+                
+
+                <div className='second_view' style={{ "backgroundColor": "#eeeeee" }}>
                     <Second_View />
                 </div>
                 <div className='third_view'>

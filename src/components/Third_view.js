@@ -11,12 +11,9 @@ const css = {
     height: '400px',
     fontSize: '1rem',
     fontFamily: 'Rubik',
-    width: '1300px',
-    marginLeft: '2rem',
     backgroundColor: 'rgba(255, 255, 255, 1)',
     border: 0,
     borderRadius: '10px',
-
 }
 
 class Third_view extends Component {
