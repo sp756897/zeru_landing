@@ -3,6 +3,8 @@ import { Row, Col } from 'antd';
 import TextComponent from './TextComponent';
 import AnimationComponent from './AnimationComponent';
 import { Card } from 'antd';
+import Second_View from './Second_view';
+import Third_view from './Third_view';
 
 export class LandingPage extends Component {
     render() {
@@ -26,6 +28,12 @@ export class LandingPage extends Component {
                         </p>
                     </Card>
                 </Row>
+                <div className='second_view'>
+                    <Second_View />
+                </div>
+                <div className='third_view'>
+                    <Third_view />
+                </div>
             </div>
         )
     }
