@@ -1,0 +1,17 @@
+.bodydiv{
+    
+    height: 100vh;
+    
+
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    
+}
+
+.bodydiv section{
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

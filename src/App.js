@@ -26,9 +26,7 @@ function App() {
 
         <LandingPage />
 
-        <p style={{ color: 'black', textAlign:'center'}}>
-        Zeru ©2022
-        </p>
+        
 
       </Layout>
 

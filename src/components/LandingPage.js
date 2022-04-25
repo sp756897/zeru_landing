@@ -5,6 +5,7 @@ import AnimationComponent from './AnimationComponent';
 import { Card } from 'antd';
 import Second_View from './Second_view';
 import Third_view from './Third_view';
+import './scroll.css';
 
 const cardcss = {
     width: "800px",
@@ -13,14 +14,14 @@ const cardcss = {
     margin: '100px auto',
     display: 'flex',
     alignItems: 'center',
-    
+
 }
 
 export class LandingPage extends Component {
     render() {
         return (
-            <div>
-                <div className='first_segment' style={{ paddingTop: "1.8rem" }}>
+            <div className='bodydiv'>
+                <section className='first_segment' style={{ paddingTop: "1.8rem" }}>
                     <Row style={{ width: '100%', height: '100%', padding: "3rem" }}>
                         <Col span={14} offset={0} style={{ width: '100%', height: '100%' }}>
                             <TextComponent />
@@ -29,9 +30,9 @@ export class LandingPage extends Component {
                             <AnimationComponent />
                         </Col>
                     </Row>
-                </div>
+                </section>
 
-                <div style={{ background: '#3b3b4f', height: '100vh', alignItems: 'center' }}>
+                <section style={{ background: '#3b3b4f', height: '100vh', alignItems: 'center' }}>
                     <div>
                         <Row >
                             <Card id="textcomp" bordered={false} style={cardcss}>
@@ -50,16 +51,19 @@ export class LandingPage extends Component {
                         </Row>
                     </div>
 
-                </div>
+                </section>
 
 
 
-                <div className='second_view' style={{ "backgroundColor": "#eeeeee" }}>
+                <section className='second_view' style={{ "backgroundColor": "#eeeeee" }}>
                     <Second_View />
-                </div>
-                <div className='third_view'>
+                </section>
+                <section className='third_view'>
                     <Third_view />
-                </div>
+                </section>
+                <p style={{ color: 'black', textAlign: 'center' }}>
+                    Zeru ©2022
+                </p>
             </div>
         )
     }
