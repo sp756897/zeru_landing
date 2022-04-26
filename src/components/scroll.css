@@ -1,7 +1,7 @@
 .bodydiv{
     
     height: 100vh;
-    
+    background-image: linear-gradient(to bottom left, #fff3e7, #6fe6df) !important;
 
     scroll-snap-type: y mandatory;
     overflow-y: scroll;

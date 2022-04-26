@@ -14,14 +14,14 @@ const cardcss = {
     margin: '100px auto',
     display: 'flex',
     alignItems: 'center',
-
 }
 
 export class LandingPage extends Component {
     render() {
         return (
+            
             <div className='bodydiv'>
-                <section className='first_segment' style={{ paddingTop: "1.8rem" }}>
+                <section className='first_segment' style={{ paddingTop: "1.8rem", backgroundImage: 'radial-gradient(farthest-corner at 100px 100px,#3d354e, #0c061d)'}}>
                     <Row style={{ width: '100%', height: '100%', padding: "3rem" }}>
                         <Col span={14} offset={0} style={{ width: '100%', height: '100%' }}>
                             <TextComponent />

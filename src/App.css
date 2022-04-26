@@ -11,35 +11,28 @@ body {
   background-color: #27262c;
 }
 
-.headerclass{
-  background-color: #240022 !important;
+.headerclass {
+  background-color: transparent !important;
 }
-
+/* 
 #landingheader {
-  font-size: 57px;
+  font-size: 10rem !important;
   background: -webkit-linear-gradient(rgb(255, 208, 0), rgb(255, 179, 0), rgb(225, 0, 255), rgb(85, 0, 255), rgba(224, 224, 224, 0.5));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .maindiv {
-  background-color: rgba(255, 255, 255, 0.0);
-
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-
+  background-color: #27262c;
 }
-.maindiv::-webkit-scrollbar {
+
+::-webkit-scrollbar {
   display: none;
 }
+
 .content {
   width: 100%;
   height: 77.5vh;
-}
-
-.ant-row-rtl .topnavbar {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.0);
 }
 
 .logo {
@@ -81,27 +74,29 @@ body {
 #ant_button {
   border: none;
   border-radius: 4px;
-  color: white;
-  background-color: #404eed;
+  color: black;
+  background-color: #ededed;
+
+
 }
 
-.firstviewleft{
+.firstviewleft {
   align-items: left;
-  padding: 80px;  
+  padding: 80px;
   margin: 0 auto;
 }
 
 
-.firstviewleft h1{
+.firstviewleft h1 {
   font-family: rubik;
   color: white;
   font-size: 3rem;
   margin-left: 0;
 }
-.firstviewleft h4{
+
+.firstviewleft h4 {
   color: white;
   font-family: rubik;
   font-size: 1.2rem;
   margin-left: 0;
 }
-

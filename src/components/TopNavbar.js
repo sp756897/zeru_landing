@@ -6,7 +6,7 @@ import { Menu } from 'antd';
 class Topnavmenu extends React.Component {
     render() {
         return (
-            <div>
+            <div style={{ position: 'fixed' }}>
                 <Menu className="menu" theme="dark" mode="horizontal"
                     style={{ backgroundColor: "transparent", float: "right" }}
                 >
@@ -17,6 +17,11 @@ class Topnavmenu extends React.Component {
 
                     </Menu.Item>
                 </Menu>
+                <div className="logo" style={{ position: 'fixed' }}>
+                    <h2 style={{ fontFamily: "Rubik", fontSize: "21px", fontWeight: "bold" }}>
+                        <i></i> Z E R U
+                    </h2>
+                </div>
             </div>
         );
     }
