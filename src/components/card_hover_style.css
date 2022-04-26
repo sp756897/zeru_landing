@@ -29,11 +29,15 @@ p {
     color: #666666;
 }
 
-p.small {
-    font-size: 14px;
+.small {
+    font-size: 1rem;
+    font-family: rubik;
+    color: #191919; 
 }
 
 #card2 {
+    background-color: #ededed;
+    color: white;
     display: block;
     top: 0px;
     position: relative;
@@ -43,16 +47,14 @@ p.small {
     padding: 15px 20px;
     margin: 12px;
     text-decoration: none;
-    box-shadow: 10px 10px 10px rgba(38, 38, 38, 0.2);
 }
 
 #card2:hover {
     transition: all 0.6s ease-out;
-    box-shadow: 30px 30px 15px rgba(38, 38, 38, 0.2);
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.4);
     top: -14px;
 }
 
 .secondclass{
-    height: 100vh;
-    background-image: radial-gradient(#ededed, #dddddd);
+    height: 90.3vh;
 }

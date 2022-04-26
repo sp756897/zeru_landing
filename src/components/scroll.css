@@ -1,17 +1,68 @@
-.bodydiv{
+.bodydiv {
+
+    height: 90.3vh;
     
-    height: 100vh;
-    background-image: linear-gradient(to bottom left, #fff3e7, #6fe6df) !important;
 
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    
+
 }
 
-.bodydiv section{
+.bodydiv section {
     scroll-snap-align: start;
 }
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+#textcomp {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin: 12px;
+    text-decoration: none;
+}
+
+.joinus {
+    align-items: left;
+    padding: 80px;
+    margin: 0 auto;
+}
+
+.joinus h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: rubik;
+    margin: 50px auto;
+    margin-bottom: 10px;
+}
+
+.joinus h5 {
+    font-family: rubik;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.zerulabs{
+    align-items: left;
+    
+
+
+}
+
+.zerulabs h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: rubik;
+    margin: 50px 0 10px 5rem;
+}
+
+.zerulabs h5 {
+    font-family: rubik;
+    font-size: 1rem;
+    color: white;
+    margin-left: 5rem;
 }

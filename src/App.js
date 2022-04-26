@@ -7,11 +7,11 @@ const { Header, Footer } = Layout;
 
 function App() {
   return (
-    <div className='maindiv'>
+    <div className='maindiv' style={{backgroundImage: 'radial-gradient(farthest-corner at 100px 100px,#3d354e, #0c061d)'}}>
 
       <Layout className="layout" style={{ backgroundColor: "transparent", }}>
 
-        <Header className='headerclass' style={{ alignItems: 'right', color: 'white', paddingTop: "0.1rem" }}>
+        <Header className='headerclass' style={{ alignItems: 'right', color: 'white' }}>
 
 
           <TopNavBar className="topnavbar" />

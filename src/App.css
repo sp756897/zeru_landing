@@ -23,7 +23,7 @@ body {
 } */
 
 .maindiv {
-  background-color: #27262c;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar {
@@ -72,12 +72,15 @@ body {
 }
 
 #ant_button {
+  margin-top: 10px;
   border: none;
-  border-radius: 4px;
-  color: black;
-  background-color: #ededed;
-
-
+  border-radius: 10px;
+  width: 7rem;
+  height: 2.5rem;
+  color: white;
+  font-family: rubik;
+  font-weight: bold;
+  background-color: #1ccc5b;
 }
 
 .firstviewleft {

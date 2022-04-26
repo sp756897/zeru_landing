@@ -7,6 +7,8 @@ import Second_View from './Second_view';
 import Third_view from './Third_view';
 import './scroll.css';
 
+import rocket from '../assets/rocket.png'
+
 const cardcss = {
     width: "800px",
     height: '400px',
@@ -14,14 +16,16 @@ const cardcss = {
     margin: '100px auto',
     display: 'flex',
     alignItems: 'center',
+    border: 'none',
+    borderRadius: '30px'
 }
 
 export class LandingPage extends Component {
     render() {
         return (
-            
+
             <div className='bodydiv'>
-                <section className='first_segment' style={{ paddingTop: "1.8rem", backgroundImage: 'radial-gradient(farthest-corner at 100px 100px,#3d354e, #0c061d)'}}>
+                <section className='first_segment' style={{ paddingTop: "1.8rem", backgroundColor: "transparent" }}>
                     <Row style={{ width: '100%', height: '100%', padding: "3rem" }}>
                         <Col span={14} offset={0} style={{ width: '100%', height: '100%' }}>
                             <TextComponent />
@@ -32,36 +36,36 @@ export class LandingPage extends Component {
                     </Row>
                 </section>
 
-                <section style={{ background: '#3b3b4f', height: '100vh', alignItems: 'center' }}>
-                    <div>
-                        <Row >
-                            <Card id="textcomp" bordered={false} style={cardcss}>
-                                <h3 id="secondary_header" style={{ fontFamily: "Rubik", color: "gold", fontSize: "30px", paddingBottom: "15px" }}>
+                <section style={{ background: 'transparent', height: '90.3vh', alignItems: 'center' }}>
+                    <div className='joinus'>
+                        <Row style={{ width: '100%', height: '100%', padding: "3rem" }}>
+                    
+                            <Col span={10} offset={0} style={{ width: '100%', height: '100%' }}>
+                                <img src={rocket} alt="Rocket to the moon" style={{ width: 400, height: 400, marginTop:0}} />
+                            </Col>
+                            <Col span={14} offset={0} style={{ width: '100%', height: '100%' }}>
+                                <h1>
                                     Join the Revolution
-                                </h3>
-                                <p style={{ fontSize: "18px", color: "#ffffffba", paddingRight: "10rem", paddingLeft: "10rem" }}>
-                                    Your big oppurtunity to join the future of Defi is here!!!<br></br> Join the Revolution and be a part of this community to go to moon at last!!!
-                                </p>
-                                <div style={{ "padding": "1rem" }}>
-                                    <Button id='ant_button' type='primary'>
-                                        Discord
-                                    </Button>
-                                </div>
-                            </Card>
+                                </h1>
+                                <h5>
+                                    Your big oppurtunity to join the future of Defi is here!!! Join the Revolution and be a part of this community to go to moon at last!!!
+                                </h5>
+                                <Button id='ant_button' type='primary'>
+                                    Discord
+                                </Button>
+                            </Col>
                         </Row>
                     </div>
 
                 </section>
 
-
-
-                <section className='second_view' style={{ "backgroundColor": "#191919" }}>
+                <section className='second_view' style={{ "backgroundColor": "transparent" }}>
                     <Second_View />
                 </section>
                 <section className='third_view'>
                     <Third_view />
                 </section>
-                <p style={{ color: 'black', textAlign: 'center' }}>
+                <p style={{ color: 'white', textAlign: 'center', fontFamily: 'rubik' }}>
                     Zeru ©2022
                 </p>
             </div>
