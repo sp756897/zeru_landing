@@ -79,7 +79,22 @@ body {
   background-color: #404eed;
 }
 
-#textcomp {
-  background-color: rgb(0, 0, 0, 0.2);
-  border-radius: 15px;
+.firstviewleft{
+  align-items: left;
+  padding: 80px;  
+  margin: 0 auto;
+}
+
+
+.firstviewleft h1{
+  font-family: rubik;
+  color: white;
+  font-size: 3rem;
+  margin-left: 0;
+}
+.firstviewleft h4{
+  color: white;
+  font-family: rubik;
+  font-size: 1.2rem;
+  margin-left: 0;
 }

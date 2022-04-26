@@ -14,7 +14,7 @@ import './styles.css'
 export class AnimationComponent extends Component {
   render() {
     return (
-      <div style={{ "paddingTop": "1rem" }}>
+      <div style={{marginTop:0 }}>
         <h1 id="shiny" data-text="&nbsp;ZERU">&nbsp;ZERU</h1>
       </div>
     )
