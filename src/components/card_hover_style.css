@@ -15,15 +15,11 @@
 }
 
 h3 {
+    font-family: Rubik;
     color: #262626;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 4px;
-    padding-bottom: 6px;
-    background: -webkit-linear-gradient(rgb(255, 208, 0), rgb(255, 179, 0), rgb(225, 0, 255), rgb(85, 0, 255), rgba(224, 224, 224, 0.5));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
 }
 
 p {
@@ -43,25 +39,20 @@ p.small {
     position: relative;
     max-width: 20rem;
     min-height: 14rem;
-    background: -webkit-linear-gradient(rgba(230, 0, 255, 0.034), rgba(230, 0, 255, 0.184));
-    border-radius: 4px;
+    border-radius: 30px;
     padding: 15px 20px;
     margin: 12px;
     text-decoration: none;
-    z-index: 0;
-    overflow: hidden;
-    border: 1px solid #f2f8f9;
+    box-shadow: 10px 10px 10px rgba(38, 38, 38, 0.2);
 }
 
 #card2:hover {
-    transition: all 0.2s ease-out;
-    box-shadow: 3px 6px 10px rgba(38, 38, 38, 0.2);
-    top: -4px;
-    border: 1px solid #cccccc;
-    background: -webkit-linear-gradient(rgba(255, 208, 0, 0.183), rgb(255, 179, 0));
+    transition: all 0.6s ease-out;
+    box-shadow: 30px 30px 15px rgba(38, 38, 38, 0.2);
+    top: -14px;
 }
 
 .secondclass{
     height: 100vh;
-    background-image: radial-gradient(closest-side at 20% 55%,#ededed, #aaaaaa);
+    background-image: radial-gradient(#ededed, #dddddd);
 }

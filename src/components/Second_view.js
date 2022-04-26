@@ -17,8 +17,8 @@ class Second_View extends Component {
                     </Col>
                     <Col>
                         <div className='container'>
-                            <Card id="card2" bordered={false} style={{ width: "100%", textAlign: "center" }}>
-                                <h3>Zero</h3>
+                            <Card id="card2" bordered={false} style={{ width: "100%", textAlign: "center"}}>
+                                <h3 style={{ fontSize:'4rem'}}>Zero</h3>
                                 <p class="small">Eventually freeing up an influx of capital for both the protocol and users to enjoy increased yield by giving out zero-collateral loans</p>
                             </Card>
                         </div>

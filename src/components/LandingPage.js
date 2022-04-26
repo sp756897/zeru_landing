@@ -55,7 +55,7 @@ export class LandingPage extends Component {
 
 
 
-                <section className='second_view' style={{ "backgroundColor": "#eeeeee" }}>
+                <section className='second_view' style={{ "backgroundColor": "#191919" }}>
                     <Second_View />
                 </section>
                 <section className='third_view'>
