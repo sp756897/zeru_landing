@@ -21,7 +21,7 @@ class Third_view extends Component {
                             </h5>
                         </Col>
                         <Col span={10} style={{display:'flex',justifyContent:'center'}}>
-                            <img src={zerulabs} alt="Logo" style={{ width: 300, height: 300,borderRadius:'50%'}} />
+                            <img id='zeruimg' src={zerulabs} alt="Logo" style={{ width: 300, height: 300,borderRadius:'50%'}} />
 
                         </Col>
                     </Row>

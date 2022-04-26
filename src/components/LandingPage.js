@@ -9,16 +9,7 @@ import './scroll.css';
 
 import rocket from '../assets/rocket.png'
 
-const cardcss = {
-    width: "800px",
-    height: '400px',
-    textAlign: "center",
-    margin: '100px auto',
-    display: 'flex',
-    alignItems: 'center',
-    border: 'none',
-    borderRadius: '30px'
-}
+
 
 export class LandingPage extends Component {
     render() {
@@ -39,9 +30,11 @@ export class LandingPage extends Component {
                 <section style={{ background: 'transparent', height: '90.3vh', alignItems: 'center' }}>
                     <div className='joinus'>
                         <Row style={{ width: '100%', height: '100%', padding: "3rem" }}>
-                    
+
                             <Col span={10} offset={0} style={{ width: '100%', height: '100%' }}>
-                                <img src={rocket} alt="Rocket to the moon" style={{ width: 400, height: 400, marginTop:0}} />
+                                
+                                    <img id='rocketimg' src={rocket} alt="Rocket to the moon" style={{ width: 500, height: 500, marginTop: 0 }} />
+
                             </Col>
                             <Col span={14} offset={0} style={{ width: '100%', height: '100%' }}>
                                 <h1>

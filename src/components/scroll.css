@@ -27,7 +27,6 @@
 
 .joinus {
     align-items: left;
-    padding: 80px;
     margin: 0 auto;
 }
 
@@ -37,6 +36,8 @@
     font-family: rubik;
     margin: 50px auto;
     margin-bottom: 10px;
+
+    padding-top: 80px;
 }
 
 .joinus h5 {
@@ -44,6 +45,7 @@
     font-size: 1rem;
     color: white;
     margin-bottom: 10px;
+    
 }
 
 .zerulabs{
@@ -66,3 +68,27 @@
     color: white;
     margin-left: 5rem;
 }
+
+
+#rocketimg{
+    animation: fly 2s ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+#zeruimg{
+    animation: fly 2s ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fly{
+    from{
+        margin-top: 0;
+    }
+    to{
+        margin-top: 20px;
+    }
+}
+
