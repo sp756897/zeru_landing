@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
 import { Row, Col } from 'antd';
-import { Card } from 'antd';
-import './scroll.css'
-
+import '../css/scroll.css'
 import zerulabs from '../assets/zeru.jpeg'
-
-
 
 
 class Third_view extends Component {

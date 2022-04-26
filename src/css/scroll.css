@@ -1,0 +1,85 @@
+.bodydiv {
+
+    height: 90.3vh;
+    
+
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+
+}
+
+.bodydiv section {
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+    
+.joinus {
+    align-items: left;
+    margin: 0 auto;
+}
+
+.joinus h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: rubik;
+    margin: 50px auto;
+    margin-bottom: 10px;
+
+    padding-top: 80px;
+}
+
+.joinus h5 {
+    font-family: rubik;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+.zerulabs{
+    align-items: left;
+    
+
+
+}
+
+.zerulabs h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: rubik;
+    margin: 50px 0 10px 5rem;
+}
+
+.zerulabs h5 {
+    font-family: rubik;
+    font-size: 1rem;
+    color: white;
+    margin-left: 5rem;
+}
+
+
+#rocketimg{
+    animation: fly 2s ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+#zeruimg{
+    animation: fly 2s ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fly{
+    from{
+        margin-top: 0;
+    }
+    to{
+        margin-top: 20px;
+    }
+}
+

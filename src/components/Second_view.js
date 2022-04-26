@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "./card_hover_style.css";
+import "../css/card_hover_style.css";
 import { Row, Card, Col } from "antd";
 
 class Second_View extends Component {

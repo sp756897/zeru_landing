@@ -1,15 +1,6 @@
-import { WhatsAppOutlined } from '@ant-design/icons';
 import React, { Component } from 'react'
-import './styles.css'
-// const sid = {
-//   color: 'transparent',
-//   webkitTextStroke: '1px white',
-//   display: 'flex',
-//   fontFamily: 'Righteous',
-//   fontSize: '200px',
-//   margin: '80px auto',
+import '../css/styles.css'
 
-// };
 
 export class AnimationComponent extends Component {
   render() {
@@ -21,4 +12,4 @@ export class AnimationComponent extends Component {
   }
 }
 
-export default AnimationComponent
+export default AnimationComponent;
